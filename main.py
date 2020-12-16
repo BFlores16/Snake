@@ -24,5 +24,4 @@ for position in starting_positions:
 
 
 
-
 screen.exitonclick()
