@@ -27,4 +27,5 @@ class Scoreboard(Turtle):
     #If snake collides with wall or itself, write game over
     def write_game_over(self):
         self.goto(0, 0)
+        self.color("red")
         self.write("GAME OVER", align=ALIGNMENT, font=FONT)
