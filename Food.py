@@ -12,6 +12,7 @@ class Food(Turtle):
         self.speed("fastest")
         self.new_food()
 
+    #Create a new food for the beginning of the game or when the snake eats a food
     def new_food(self):
         random_x = random.randint(-280, 280)
         random_y = random.randint(-280, 270)
